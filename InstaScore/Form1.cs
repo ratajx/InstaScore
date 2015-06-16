@@ -193,12 +193,15 @@ namespace InstaScore
             JObject jsonObject=null;
 
             Stopwatch watch = new Stopwatch();
+            Stopwatch smallWatch = new Stopwatch();
+            Stopwatch extraWatch = new Stopwatch();
             try
             {
                 watch.Start();
                 do
                 {
-
+                  smallWatch.Start();
+                  extraWatch.Start();
                   jsonObject = downloadPhotoFromInstagram(nextUrl, textBox2.Text, Convert.ToInt32(textBox3.Text));
 
                     System.DateTime dtDateTime = unixTimestampToDate(jsonObject["data"][0]["created_time"].ToString());
@@ -220,11 +223,19 @@ namespace InstaScore
                     else
                         Console.WriteLine(urlList.Count);
 
+                    smallWatch.Stop();
+                    if (smallWatch.ElapsedMilliseconds < 720)
+                        Thread.Sleep((int)(720 - smallWatch.ElapsedMilliseconds) + 10);
+                    extraWatch.Stop();
+                    Console.WriteLine(extraWatch.ElapsedMilliseconds);
+                    extraWatch.Reset();
+                    smallWatch.Reset();
+
                     if (i == 4999)
                     {
                         watch.Stop();
                         int time = (1000 * 3600) - (int)watch.ElapsedMilliseconds;
-                        if(time>0)
+                        if (time > 0)
                             Thread.Sleep(time);
                         watch.Reset();
                         watch.Start();
