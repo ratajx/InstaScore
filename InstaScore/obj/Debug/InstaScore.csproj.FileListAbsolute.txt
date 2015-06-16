@@ -1,0 +1,12 @@
+c:\users\samsung\documents\visual studio 2013\Projects\InstaScore\InstaScore\bin\Debug\InstaScore.exe.config
+c:\users\samsung\documents\visual studio 2013\Projects\InstaScore\InstaScore\bin\Debug\InstaScore.exe
+c:\users\samsung\documents\visual studio 2013\Projects\InstaScore\InstaScore\bin\Debug\InstaScore.pdb
+c:\users\samsung\documents\visual studio 2013\Projects\InstaScore\InstaScore\obj\Debug\InstaScore.csprojResolveAssemblyReference.cache
+c:\users\samsung\documents\visual studio 2013\Projects\InstaScore\InstaScore\obj\Debug\InstaScore.Form1.resources
+c:\users\samsung\documents\visual studio 2013\Projects\InstaScore\InstaScore\obj\Debug\InstaScore.Properties.Resources.resources
+c:\users\samsung\documents\visual studio 2013\Projects\InstaScore\InstaScore\obj\Debug\InstaScore.csproj.GenerateResource.Cache
+c:\users\samsung\documents\visual studio 2013\Projects\InstaScore\InstaScore\obj\Debug\InstaScore.exe
+c:\users\samsung\documents\visual studio 2013\Projects\InstaScore\InstaScore\obj\Debug\InstaScore.pdb
+c:\users\samsung\documents\visual studio 2013\Projects\InstaScore\InstaScore\bin\Debug\Newtonsoft.Json.dll
+c:\users\samsung\documents\visual studio 2013\Projects\InstaScore\InstaScore\bin\Debug\Newtonsoft.Json.pdb
+c:\users\samsung\documents\visual studio 2013\Projects\InstaScore\InstaScore\bin\Debug\Newtonsoft.Json.xml
